@@ -1,3 +1,4 @@
+package diaDois
 fun main() {
         println("Quantos anos você tem?")
         val idadeEmAnos = readln().toInt()

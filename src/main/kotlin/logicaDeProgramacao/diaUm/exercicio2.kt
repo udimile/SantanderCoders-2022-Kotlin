@@ -1,3 +1,4 @@
+package diaUm
 fun main() {
     /*
     Faça um algoritimo que leia a base e a altura de um triangulo e calcule a sua area.

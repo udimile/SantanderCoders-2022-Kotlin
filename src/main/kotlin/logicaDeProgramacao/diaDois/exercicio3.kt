@@ -1,3 +1,4 @@
+package diaDois18
 fun main() {
     println("Qual a idade do nadador?")
     val idadeDoNadador = readln().toInt()
