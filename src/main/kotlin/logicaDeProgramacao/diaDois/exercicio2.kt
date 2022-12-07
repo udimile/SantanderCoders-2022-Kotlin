@@ -1,3 +1,4 @@
+package diaDois
 fun main() {
     println("Em que ano você nasceu?")
     val anoDeNascimento = readln().toInt()

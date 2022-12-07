@@ -1,3 +1,4 @@
+package diaDois
 fun main() {
     do {
         println("Qual o seu nome de usuário?")

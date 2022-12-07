@@ -1,3 +1,4 @@
+package diaUm
 fun main() {
 /*
 * Faça um algoritimo que receba o comprimento do lado de um quadrado e calcule sua área e seu perímetro.
