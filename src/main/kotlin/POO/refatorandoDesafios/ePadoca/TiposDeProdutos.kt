@@ -18,13 +18,6 @@ enum class TiposDeProdutos(val valor:Int) {
         }
     }
 
-    override fun toString(): String {
-        return """
-        1..................Pães
-        2..............Salgados
-        3.................Doces
-        0......Finalizar compra
-        """.trimIndent()
-    }
+
 
 }
