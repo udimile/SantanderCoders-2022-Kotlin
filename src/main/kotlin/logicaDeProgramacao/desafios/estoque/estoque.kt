@@ -70,12 +70,12 @@ fun adiciona() {
 
 }
 
-    fun estoque() {
+fun estoque() {
         val estoque = pecas.filter { it.quantidade > 0 }
         exibir(estoque)
     }
 
-    fun exibir(pecasAExibir: List<Peca> = pecas) {
+fun exibir(pecasAExibir: List<Peca> = pecas) {
         println("ID | Peça | Quantidade")
         for (peca in pecasAExibir) {
             println("#%04d".format(peca.id) + " | ${peca.nome} | ${peca.quantidade}")
