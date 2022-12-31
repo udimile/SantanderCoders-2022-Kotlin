@@ -4,7 +4,7 @@ private const val PAES = 1
 private const val SALGADOS = 2
 private const val DOCES = 3
 private const val FINALIZAR = 0
-private val listaCategorias = listOf(PAES, SALGADOS, DOCES, FINALIZAR)
+//private val listaCategorias = listOf(PAES, SALGADOS, DOCES, FINALIZAR)
 
 
 private const val LINHA = "..........."
