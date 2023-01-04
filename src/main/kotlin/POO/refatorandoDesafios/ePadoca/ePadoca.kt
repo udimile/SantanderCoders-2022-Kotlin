@@ -31,7 +31,7 @@ fun ePadoca() {
         var finalizaCompra = "N"
 
         when (escolhaMenuPrincipal) {
-            TiposDeProdutos().PAES -> selecionaProduto(menuPaes, paes)
+            TiposDeProdutos.PAES -> selecionaProduto(menu, menu.paes)
             categorias.SALGADOS -> selecionaProduto(menuSalgados, salgados)
             categorias.DOCES -> selecionaProduto(menuDoces, doces)
             else -> {
@@ -67,7 +67,7 @@ private fun adicionaCupom() {
 }
 
 private fun selecionaProduto(
-    menuSelecionado: String,
+    menuSelecionado: Menu,
     produtos: List<Pair<String, Double>>
 ) {
     do {
